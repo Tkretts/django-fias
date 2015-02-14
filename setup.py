@@ -31,12 +31,11 @@ setup(
 
     license='MIT license',
     install_requires=[
-        'Django>=1.4',
+        'Django>=1.7',
         'django-extensions>=1.0.0',
         'rarfile',
         'six',
         'lxml',
-        'south>=1.0',
         'unrar',
     ] + extra_requirements,
     packages=find_packages(),
